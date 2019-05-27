@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ASP.NETLab.Lab2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 313px;
+        }
+        .auto-style3 {
+            width: 313px;
+            height: 26px;
+        }
+        .auto-style4 {
+            height: 26px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 style="text-align:center"><span>
+        <img src="../Images/capgemini.jpg" /></span></h1>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+        <table class="auto-style1">
+            <tr>
+                <td>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
